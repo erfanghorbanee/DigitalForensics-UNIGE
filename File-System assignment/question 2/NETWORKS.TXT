@@ -1,0 +1,62 @@
+
+NETWORKS.TXT
+
+This file contains information about making your network compatible
+with MS-DOS 6.21.
+
+This file contains the following sections:
+
+1.  MS-DOS Shell and Networks
+2.  3+Share
+3.  Arcnet systems
+4.  Artisoft LANtastic
+5.  AT&T StarGroup (non-LAN Manager)
+6.  Banyan VINES
+7.  DEC Pathworks and PCSA
+8.  IBM PC LAN
+9.  IBM DOS LAN Requester Version 1.30 or Earlier
+10. Microsoft LAN Manager and 100-Percent Compatible
+    Networks
+11. Microsoft MS-Net and 100-Percent Compatible
+    Networks
+12. Net/One PC
+13. Novell Networks
+14. PC-NFS 3.0
+15. TCS 10Net or DCA 10Net
+
+
+1. MS-DOS Shell and Networks
+============================
+Most network software won't work correctly if you start it from a
+command prompt in MS-DOS Shell. Start your network before starting
+MS-DOS Shell.
+
+2. 3+Share
+==========
+If your network software is 3+Share version 1.6, and you have the
+redirector included with MS-DOS 5.0, your current version of the
+3+Share redirector will work with MS-DOS 6.21. After you install
+MS-DOS 6.21, type the following at the command prompt, and restart
+your computer:
+
+   SETVER MSREDIR.EXE 5.0
+
+If you do not have the redirector included with MS-DOS 5.0, check to
+see if your version of MS-DOS 6.21 included a NET.TXT file. If so,
+follow the instructions in that file.
+
+If your version of MS-DOS 6.21 did not include a NET.TXT file, obtain
+the redirector by ordering the Supplemental disks or by downloading
+the disks from the Microsoft Product Support Download Service (MSDL).
+For more information, see the coupon at the back of the MICROSOFT
+MS-DOS 6 USER'S GUIDE. After you obtain the redirector, follow the
+instructions in the NET.TXT file on the Supplemental disks.
+
+If you have 3+Share version earlier than 1.6, contact your network
+vendor for an update.
+
+3. Arcnet systems
+=================
+If your network uses Arcnet hardware, you might need to run the
+Microsoft Diagnostics (MSD) program by using the MSD /I command.
+If you must use the /I switch, do not c
